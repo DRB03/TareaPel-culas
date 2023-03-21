@@ -69,7 +69,7 @@ namespace Pelicula
         public string GetNombre(){return nombre;}
         public void SetNombre(string nomb){nombre= nomb;}
 
-        public GetAño(){return año;}
+        public int GetAño(){return año;}
         public void SetAño(int añe){año=añe;}
 
     }
