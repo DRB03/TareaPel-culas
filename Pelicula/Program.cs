@@ -23,7 +23,7 @@ namespace Pelicula
         //Métodos
 
         public string GetTitulo(){return titulo;}
-        public void SetTitulo(String titu){titulo=titu;}
+        public void SetTitulo(string titu){titulo=titu;}
 
         public int GetAño(){return año;}
         public void SetAño(int year){año=year;}
