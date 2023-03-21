@@ -47,10 +47,8 @@ namespace Pelicula
         {
             foreach(Actor persona in actores)
             {
-                Console.WriteLine($"{persona.GetNombre()} ({persona.SetAño()})");
+                Console.WriteLine($"{persona.GetNombre()} ({persona.GetAño()})");
             }
-        }
-
         }
 
 
